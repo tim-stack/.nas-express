@@ -1,8 +1,37 @@
-let isChecked = true,
-    isClosed = true,
-    isNamed = false;
+let num = 50;
 
-console.log(isClosed && isChecked && isNamed);
+while (num < 60) {
+    console.log(num);
+    num++;
+}
+
+for (let i = 1; i < 10; i++) {
+    console.log(num);
+    num++;
+}
+
+// const num = 50;
+
+// switch (num) {
+//     case 49:
+//         console.log('false');
+//         break;
+//     case 100:
+//         console.log('false');
+//         break;
+//     case 52:
+//         console.log('Yeah, its true');
+//         break;
+//     default: 
+//         console.log('Next time');
+//         break;
+// }
+
+// let isChecked = true,
+//     isClosed = true,
+//     isNamed = false;
+
+// console.log(isClosed && isChecked && isNamed);
 
 // const answers = [];
 
